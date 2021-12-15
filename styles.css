@@ -1,0 +1,212 @@
+@font-face {
+    font-family: SF-Pro-Display-Light;
+    src: url(./assets/SF-Pro-Display-Light.otf);
+}
+
+@font-face {
+    font-family: SF-Pro-Display-Thin;
+    src: url(./assets/SF-Pro-Display-Thin.otf);
+}
+
+@font-face {
+    font-family: SF-Pro-Display-Ultralight;
+    src: url(./assets/SF-Pro-Display-Ultralight.otf);
+
+}
+
+@font-face {
+    font-family: SF-Pro-Text-Light;
+    src: url(./assets/SF-Pro-Text-Light.otf);
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(./assets/mountain_hike.jpg);
+    background-size: 1440px auto;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 570px;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    position: absolute;
+    top: 83px;
+    background-color: #494949;
+    list-style-type: none;
+    left: 50%;
+    width: 940px;
+    margin-left: -490px;
+    border-radius: 5px;
+    display: flex;
+    padding: 0;
+    gap: 1px;
+    text-align: center;
+    
+}
+
+li {
+    height: 40px;
+    line-height: 40px;
+    flex: 1;
+    background: linear-gradient(to bottom,  #8c8c8c,
+    #707070 50%, #5e5e5e 51%,#777777 100%);
+    border: solid 1px;
+    border-color: #757575#9e9e9e #4a4a4a#9e9e9e;
+    color: white;
+    font-family: 'SF-Pro-Text-Light';
+    text-shadow: 0 -1px 0 black;
+    font-size: 13px;
+}
+
+
+.tabs:hover {
+    background: linear-gradient(to bottom,  #5e5e5e,
+    #434343 50%, #393939 51%, #545454 100%);
+    border-color: #4a4a4a;
+}
+
+input {
+    background-color: rgba(100%, 100%, 100%, 0.1);
+    border-radius: 10px;
+    width: 110px;
+    margin: 3px 17px 3px 17px;
+    border-style: solid solid none solid;
+    border-color: #373737;
+    background-image: url(./assets/search-icon.png);
+    background-size: 12px auto;
+    background-repeat: no-repeat;
+    background-position: 5px 2px;
+}
+
+input:focus {
+    transition: all ease-in .2s;
+    background-color: white;
+    background-image: url(./assets/search-icon_2.png);
+    background-size: 12px auto;
+    background-repeat: no-repeat;
+    background-position: 5px 2px;
+    background-color: white;
+    border-style: none;
+    width: 150px;
+    border-color: transparent;
+    padding-left: 20px;
+
+
+}
+
+.left-edge {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+}
+
+.right-edge {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.apple-logo {
+    right: 40%;
+    position: absolute;
+    width: 15px;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.title-text {
+    padding-top: 240px;
+}
+
+h1 {
+    font-family: 'SF-Pro-Display-Ultralight';
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'SF-Pro-Display-Thin';
+    color: white;
+    text-align: center;
+    font-size: 33px;
+
+}
+
+h3 {
+    font-family: 'SF-Pro-Display-Thin';
+    color: white;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.play-button {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1440px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.product-list img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    display: block;
+    margin: auto;
+    width: 1000px;
+    
+}
+
+.footer-1 {
+    display: inline-block;
+    font-family: 'SF-Pro-Text-Light';
+    font-size: 10px;
+    color: #787878;
+    margin-right: 30px;
+
+}
+
+.footer-2 {
+    display: inline-block;
+    font-family: 'SF-Pro-Text-Light';
+    font-size: 10px;
+    color: #787878;
+    
+}
+
+.footer-3 {
+    font-family: 'SF-Pro-Text-Light';
+    font-size: 10px;
+    color: #787878;
+}
+
+a {
+    color: #3096d2;   
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.US-logo {
+    width: 20px;
+}
